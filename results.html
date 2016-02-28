@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>HelpMeVote Results</title>
+
+    <link href="css/bootstrap.custom.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/results.css" rel="stylesheet">
+    <link href="css/helpmevote.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Bitter:400,700' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top bg-primary">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">HelpMeVote</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h2>We have successfully located your voter registration!</h2>
+        <p id="voter-address">You are registered to vote at:<br>
+        832 W Oakdale Ave Apt 3A<br>
+        Chicago IL, 60657
+        </p>
+        <p style="font-weight: bold">Have you moved?<br><a class="btn btn-primary btn-lg" href="https://ova.elections.il.gov/" role="button" target="_blank">Click here to change your address »</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+	      <div class="panel-primary panel">
+		      <div class="panel-heading"><h2>Where do I go to vote?</h2></div>
+		      <div class="panel-body">
+		          <p>ADVOCATE IL MASONIC MD CTR<br>
+		          814 W NELSON ST<br>
+		          Chicago 60657</p>
+		          <div id="map-container"></div>
+		          <p><a class="btn btn-primary btn-block" href="https://maps.google.com?daddr=814+W+Nelson+St+Chicago+IL+60657" role="button" target="_blank">Get Directions »</a></p>
+				  </div>
+	      </div>
+        </div>
+
+        <div class="col-md-4">
+	        <div class="panel-primary panel">
+		      <div class="panel-heading"><h2>When do I vote?</h2></div>
+		      <div class="panel-body">
+          <p>The next election is the presidential primary on March 15</p>
+          <p>Your polling place is open from <b>7AM to 7PM</b> on election day</p>
+          <p><a class="btn btn-primary btn-block" href="http://cookcountyclerk.com/elections/mailvoting/Pages/default.aspx" role="button" target="_blank">Click here to request to vote by mail »</a></p>
+          <p><a class="btn btn-primary btn-block" href="http://www.cookcountyclerk.com/elections/earlyvoting/Pages/EarlyVotingLocations.aspx" role="button" target="_blank">Click here for early voting information »</a></p>
+       
+		      </div></div></div>
+
+        <div class="col-md-4">
+          <div class="panel-primary panel">
+		      <div class="panel-heading"><h2>Who's Running?</h2></div>
+		      <div class="panel-body">
+
+          <h5>Republican Presidential Primary</h5>
+          <div class="row" style="text-align: center;">
+            <div class="col-md-4">
+              <img class="img-circle img-responsive img-candidate" src="img/trump.jpg" alt="Candidate 1">
+              <p>Donald Trump</p>
+            </div>
+            <div class="col-md-4">
+              <img class="img-circle img-responsive img-candidate" src="img/rubio.jpg" alt="Candidate 2">
+              <p>Marco Rubio</p>
+            </div>
+            <div class="col-md-4">
+              <img class="img-circle img-responsive img-candidate" src="img/cruz.jpg" alt="Candidate 3">
+              <p>Ted Cruz</p>
+            </div>
+          </div>
+          <p><a class="btn btn-primary btn-block" href="http://www.vote411.org/ballot?street=832%20W%20Oakdale%20Ave%20Apt%203A&city=Chicago&state=Illinois&zip=60657" role="button" target="_blank">Get more information from voter411.org »</a></p>
+		      </div></div>
+        </div>
+      </div>
+
+     
+    </div> <!-- /container -->
+
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+   <script src="js/results.js"></script>
+   
+  
+
+</body></html>

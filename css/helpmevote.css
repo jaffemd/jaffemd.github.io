@@ -1,0 +1,40 @@
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, .btn {
+	font-family: "Oswald", "Helvetica", sans-serif;
+	text-transform: uppercase;
+}
+.btn {
+	font-weight: 800;
+}
+
+body {
+	font-family: "Bitter", "Times New Roman", serif;
+}
+
+.navbar-brand {
+	font-weight: 800;
+	font-size: 25px;
+}
+
+.logo {
+	font-family: "Bitter", "Times New Roman", serif;
+	font-size: 76px;
+	font-weight: 800;
+	margin-bottom: 50px;
+	color: #CB003D;
+	text-shadow:0px 0px 0 rgb(179,-24,37),0px 1px 0 rgb(164,-39,22),0px 2px 0 rgb(150,-53,8),0px 3px 0 rgb(135,-68,-7),0px 4px 0 rgb(121,-82,-21),0px 5px 0 rgb(106,-97,-36), 0px 6px 0 rgb(92,-111,-50),0px 7px 6px rgba(0,0,0,0.6),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+
+}

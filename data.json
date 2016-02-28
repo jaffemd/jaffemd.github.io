@@ -1,0 +1,33 @@
+{
+	"fname":"John",
+	"lname":"Smith",
+	"address": {
+		"address1":"832 West Oakdale Ave.",
+		"address2":"Apt. 3A",
+		"city": "Chicago",
+		"state": "Illinois",
+		"zipcode": "60657",
+		"county": "Cook"
+	},
+	"voter": {
+		"registered": true
+	},
+	"poll": {
+		"name":"Advocate Illinois Medical Center",
+		"address": {
+			"address1":"814 W. Nelson St.",
+			"address2":"",
+			"city": "Chicago",
+			"state": "Illinois",
+			"zipcode": "60657",
+			"county": "Cook"
+		},
+	},
+	"districts": {
+		"Federal-House":"IL-5",
+		"Federal-Senate":"IL",
+		"State-Senate":"6",
+		"State-Legislature":"12",
+		"Ward":"44"
+	}
+}

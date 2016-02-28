@@ -1,0 +1,23 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#map-container { height: 200px; margin-bottom: 5px }
+/*.row > div {
+    margin-top:10px;
+    padding: 20px;
+    border: #999 solid 1px;
+	border-radius:10px;
+	box-shadow: 1px 1px 1px 1px #fff inset;
+	outline: 10px solid transparent;
+ }
+ .col-md-4 {
+ 	margin-right:5px;
+ 	width:32%;
+ }*/
+.img-candidate{
+	height:100px;
+	margin-left: auto;
+	margin-right: auto;
+}
